@@ -1,0 +1,6 @@
+.stoolbar { position:fixed; bottom:0; left:50%; margin-left:-490px; padding:1px 1px 0; border:1px solid #ddd; border-bottom:0; width:975px; height:30px; font:normal 12px/20px simsun; background-color:#fff; color:#0069ca; z-index:9000; }
+.stoolbar_ie6 { position:absolute !important; left:expression( ( document.documentElement.clientWidth - this.offsetWidth ) / 2 + 'px' ) !important; margin:0 !important; top:expression( document.documentElement.scrollTop + document.documentElement.clientHeight - this.offsetHeight + 'px' ) !important; }
+.stoolbar_ipad{position:absolute;bottom:0;}
+.stoolbar .inner { height:20px; text-align:center; background:#fff url(http://source.qunar.com/site/images/new_main/tb.bg.gif) 0 0 repeat-x; }
+.stoolbar a { margin:0 10px; color:#0069ca; }
+.stoolbar a:hover { color:#f60; }
